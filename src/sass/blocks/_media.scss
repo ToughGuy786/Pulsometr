@@ -1,3 +1,28 @@
+@media (max-width: 991px) {
+    .header {
+        padding: 0 20px;
+    }
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+    }
+    .advantages {
+        padding: 73px 10px 83px 10px;
+        &__item {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            border-radius: 5px;
+            padding: 5px;
+            margin: 0 10px;
+        }
+    }
+    .consultation {
+        .container {
+            padding-left: 20px;
+        }
+    }
+}
+
 @media (max-width: 767px) {
        .header {
         display: flex;
@@ -16,11 +41,12 @@
             }
             button {
                 width: 144px;
-                font-size: 11px;
+                font-size: 12px;
             }
         }
        }
        .promo {
+            padding: 21px 10px 93px 10px;
         &__wrapper {
             align-items: center;
         }
@@ -37,6 +63,9 @@
             padding: 10px;
         }
        }
+       .consultation {
+        padding-left: 20px;
+       }
 }
 
 @media (max-width: 575px) {
@@ -46,13 +75,25 @@
         &__logo {
             display: flex;
             margin: 0 auto;
+            width: 280px;
+            padding-top: 30px;
         }
         &__official {
             margin-top: 30px;
+            font-size: 13px;
+            span {
+                font-size: 20px;
+            }
         }
         &__contacts {
             align-items: center;
             margin-top: 30px;
+            button {
+                font-size: 13px;
+            }
+        }
+        &__phone {
+            font-size: 18px !important;
         } 
     }
     .promo {
