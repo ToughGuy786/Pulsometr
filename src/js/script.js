@@ -45,11 +45,32 @@
 //     console.log('Ошибка')
 // }
 
-let answer = confirm('Вам уже есть 18?');
-if (answer) {
-    console.log('Проходите')
-} else {
-    console.log('Уходи')
-}
+// let answer = confirm('Вам уже есть 18?');
+// if (answer) {
+//     console.log('Проходите')
+// } else {
+//     console.log('Уходи')
+// }
+
+// const num = 50;
+
+// if (num < 48) {          - 50 меньшем, чем 48. Ответ "ошибка"
+//     console.log('error')
+// } else if (num > 100) {  - 100 большн, чем 50. Ответ "Много"
+//     console.log('to many')
+// } else {
+//     console.log('correct') - ответ верно
+// }
+
+
+
+// Циклы в JavaScript
+// Пример. Этот цикл будет работать до тех пор, он не достигнет 8, начиная с 1.
+// for - создаёт цикл, состоящий из 3 необязательных выражений в круглых скобках, разделённых точками с запятой.
+for (let i = 1; i < 8; i++) {
+    console.log(i)
+} 
+
+
 
 
